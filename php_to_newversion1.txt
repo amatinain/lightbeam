@@ -1,0 +1,66 @@
+
+
+
+
+           php codes for the latest version of the twilio library
+
+(a) loading the twilio library
+
+     old php: 
+	require "/home/users/web/b109/nf.seniortravelaide/public_html/cgi-bin/Services/Twilio.php"; 
+	require "/home/users/web/b109/nf.seniortravelaide/public_html/cgi-bin/Services/Twilio/Capability.php"; 
+     new code:
+        ????
+
+
+(b) Instantiate a new Twilio Rest Client
+
+     old php: 
+        $twclient = new Services_Twilio($AccountSid, $AuthToken);
+        $capability = new Services_Twilio_Capability($AccountSid, $AuthToken);
+     sample new code snippet:
+	use Twilio\Rest\Client;    (????)
+
+
+
+(c) Instantiate twilio services
+
+     old php: 
+        $client = new Lookups_Services_Twilio($AccountSid, $AuthToken);
+     new code:
+
+
+
+(d) send sms text messages
+
+     old php: 
+	$twclient->account->sms_messages->create($NewPhone, $sNumber, $sMsg);
+     sample new code snippet:
+        ????
+
+
+
+(e) Add A New Outgoing Caller ID
+
+     old php: 
+        client.outgoingCallerIds.create
+        response: callerId.validation_code
+     sample new code snippet:
+        ???? validationRequests???
+
+
+
+
+(e) loading a client device library
+
+     old php: 
+        <script type="text/javascript"
+          src="//media.twiliocdn.com/sdk/js/client/v1.3/twilio.min.js"></script>
+     new code:
+         ????
+
+
+
+
+
+
