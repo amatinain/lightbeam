@@ -7,8 +7,8 @@
 (a) loading the twilio library
 
      old php: 
-	require "/home/users/web/b109/nf.seniortravelaide/public_html/cgi-bin/Services/Twilio.php"; 
-	require "/home/users/web/b109/nf.seniortravelaide/public_html/cgi-bin/Services/Twilio/Capability.php"; 
+	require "/cgi-bin/Services/Twilio.php"; 
+	require "/cgi-bin/Services/Twilio/Capability.php"; 
      new code:
         ????
 
