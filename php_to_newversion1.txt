@@ -10,7 +10,7 @@
 	require "/cgi-bin/Services/Twilio.php"; 
 	require "/cgi-bin/Services/Twilio/Capability.php"; 
      new code:
-        ????
+        The examples below will show what classes to call
 
 
 (b) Instantiate a new Twilio Rest Client
@@ -19,8 +19,7 @@
         $twclient = new Services_Twilio($AccountSid, $AuthToken);
         $capability = new Services_Twilio_Capability($AccountSid, $AuthToken);
      sample new code snippet:
-	use Twilio\Rest\Client;    (????)
-
+      https://github.com/twilio/twilio-php/blob/master/Twilio/Tests/Unit/Jwt/ClientTokenTest.php
 
 
 (c) Instantiate twilio services
@@ -28,6 +27,8 @@
      old php: 
         $client = new Lookups_Services_Twilio($AccountSid, $AuthToken);
      new code:
+     https://www.twilio.com/docs/api/lookups
+     Choose PHP example -> 5.x
 
 
 
@@ -36,7 +37,8 @@
      old php: 
 	$twclient->account->sms_messages->create($NewPhone, $sNumber, $sMsg);
      sample new code snippet:
-        ????
+        https://www.twilio.com/docs/api/rest/sending-messages
+	Choose PHP example -> 5.x
 
 
 
@@ -46,7 +48,7 @@
         client.outgoingCallerIds.create
         response: callerId.validation_code
      sample new code snippet:
-        ???? validationRequests???
+        ^^^ that's not PHP ^^^^ that's JS, it's the same
 
 
 
@@ -57,7 +59,7 @@
         <script type="text/javascript"
           src="//media.twiliocdn.com/sdk/js/client/v1.3/twilio.min.js"></script>
      new code:
-         ????
+         That's HTML, you are calling the source of the JS, that's not changed as well
 
 
 
