@@ -1,6 +1,7 @@
 
-
-
+-----------------------------------------------------------
+As far as I can tell, these are the only changes I can find. Thank you so very much for assisting me. ==>I buy you a vodka perhaps when you are in Seattle or I am in LA. "spasibo" !!!
+-----------------------------------------------------------
 
            php codes for the latest version of the twilio library
 
